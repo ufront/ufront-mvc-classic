@@ -2,7 +2,6 @@
 # @tm-html <iframe src="http://ufront/index.php" style="width: 100%; height:500px"></iframe>
 -cp src
 -cp test
--cp ../htemplate/src
 -lib hscript
 -lib umock
 -lib utest
@@ -14,4 +13,4 @@
 #-D htemplate                                     
 -D hxculture            
 -D withmacro
--xml ufront.xml
+

@@ -1,13 +1,13 @@
 {
-  "name": "ufront-mvc",
+  "name": "ufront-mvc-classic",
   "license": "MIT",
   "classPath": "src",
   "tags": ["ufront","web","framework","mvc","neko","php"],
-  "description": "MVC Framework that is at the core of ufront.",
+  "description": "The classic MVC Framework from the old Ufront.  Modelled on ASP.net MVC2 Framework, it is very flexible but relies heavily on RTTI, so performance and type safety may suffer.  See ufront-mvc for an alternative implementation.",
   "contributors": ["fponticelli","jason"],
-  "releasenote": "Initial Release. For early adopters only at this point, things subject to change.",
+  "releasenote": "Split off from ufront-mvc.  This is the code from Haxe 2's version of Ufront, but ported to Haxe 3.  Relatively stable, but may be deprecated.",
   "version": "1.0.0-alpha.1",
-  "url": "https://github.com/ufront/ufront-mvc",
+  "url": "https://github.com/ufront/ufront-mvc-classic",
   "dependencies": {
     "hxevents": "",
     "detox": ""

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-libname='ufront-mvc'
+libname='ufront-mvc-classic'
 rm -f "${libname}.zip"
 zip -r "${libname}.zip" haxelib.json src LICENSE.txt README.md
 cd thx
