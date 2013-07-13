@@ -11,6 +11,5 @@
 -lib erazor
 -php bin
 -main TestAll  
--D htemplate                                     
--D hxculture            
--xml ufront.xml
+#-D htemplate                                     
+-D hxculture
